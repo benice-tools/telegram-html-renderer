@@ -1,10 +1,12 @@
 ## What the hug?
-Basically, its server side chrome as renderer, each user could use his own "Tab" 
+Basically, it is chrome manager, that loads needed templates into tabs or iframes 
+And then provides concurent way to apply js and get render as screenshot back.
 
-Then, service layer proxies calls from telegram to web page and returns image with next available actions.
+In our case - we doing commits from backends directly into Vuex store and after having screenshot on Vue.$nextTick user receives his data.
 ## Example
 Working example can be found at telegram @Benice_tools_bot 
 ## Example screens
 ![Balances](./screens/2_mob.jpg) ![Trader](./screens/3_mob.jpg)
 ## Where is code
-If you interested - click star, we will open more info on 100.
+
+We are preparing our sources for publishing. Please click star if you interested.
